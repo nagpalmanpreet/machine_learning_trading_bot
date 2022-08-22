@@ -25,8 +25,13 @@
 <img src="./Resources/Images/SVM_Offset_20Days_SlowSMA.png" alt="SVMOriginal_Report" height="300" width="400" />
 
 **LRM**
+
 <img src="./Resources/ClassificationReport/LRM_Report.png" alt="LRM_Report" height="300" width="400" />
 
 <img src="./Resources/Images/LRM_CumPlot.png" alt="SVMOriginal_Report" height="300" width="400" />
 
 **Conclusion**
+*   Increasing the offset from 3 months to 6 months did slightly improved the accuracy of the model.
+*   Decreasing the offset from 3 months to 1 month, no difference was observed.
+*   Increasing the Slow SMA to 20 days slightly improved the accuracy of the model.
+*   With the original parameters, LVM performed worse that the SVM.
